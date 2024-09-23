@@ -1,0 +1,14 @@
+{
+  "name": "hello-inngest-app",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "inngest": "^3.22.13"
+  }
+}
