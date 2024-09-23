@@ -2,13 +2,19 @@
   "name": "hello-inngest-app",
   "module": "index.ts",
   "type": "module",
+  "scripts": {
+    "dev": "bun --watch index.ts"
+  },
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "latest",
+    "@types/express": "^4.17.21"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
   },
   "dependencies": {
+    "casual": "^1.6.2",
+    "express": "^4.21.0",
     "inngest": "^3.22.13"
   }
 }

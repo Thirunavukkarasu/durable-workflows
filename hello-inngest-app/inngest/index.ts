@@ -1,5 +1,7 @@
-import { helloWorld } from './helloWorld';
+import * as emails from './functions/emails';
 
-export const functions = [helloWorld];
+export const functions = [
+    ...Object.values(emails)
+];
 
 export { inngest } from './client';

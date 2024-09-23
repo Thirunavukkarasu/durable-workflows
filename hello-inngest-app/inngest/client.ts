@@ -1,4 +1,7 @@
-import { Inngest } from 'inngest';
-import { schemas } from './types';
+import { Inngest, EventSchemas } from 'inngest';
+import type { EventUnion } from './events';
 
-export const inngest = new Inngest({ id: 'my-bun-app', schemas });
+export const inngest = new Inngest({ 
+    id: 'demo-app',  
+    schemas: new EventSchemas().fromUnion<EventUnion>()
+});
