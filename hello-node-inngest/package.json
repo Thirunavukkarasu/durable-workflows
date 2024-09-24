@@ -1,0 +1,21 @@
+{
+  "name": "hello-node-inngest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node index.js",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.0",
+    "inngest": "^3.22.13"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21"
+  }
+}
